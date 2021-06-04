@@ -1,0 +1,58 @@
+* {
+    margin-top: 0.1rem;
+}
+
+.color1 {
+    background-color: yellow;
+    color: yellow;
+}
+
+.color2 {
+    background-color: blue;
+    color: blue;
+}
+
+.color3 {
+    background-color: red;
+    color: red;
+}
+
+.color4 {
+    background-color: green;
+    color: green;
+}
+
+.color5 {
+    background-color: grey;
+    color: grey;
+}
+
+.color6 {
+    background-color: white;
+    color: white;
+}
+
+.color6bis {
+    background-color: yellow;
+    color: yellow;
+}
+
+.color7 {
+    background-color: white;
+    color: white;
+}
+
+.color7bis {
+    background-color: blue;
+    color: blue;
+}
+
+.color8 {
+    background-color: red;
+    color:red;
+}
+
+.color8bis {
+    background-color: white;
+    color: white;
+}
