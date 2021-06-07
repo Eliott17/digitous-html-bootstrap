@@ -1,35 +1,29 @@
-.test {
-    background-color: red;
+.divprin {
+    height: 20rem;
+}
+.div-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
 }
 
-.text-1 {
-    color: white;
+.div-content-2 {
+    margin-right: 4rem;
 }
 
-.test2 {
+.image {
+    border-radius: 50%;
+}
+.text {
+    display: flex;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.start {
     display: flex;
     justify-content: flex-end;
-}
-
-.image1 {
-    border-radius:  50%;
-}
-
-.test3 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 20rem;
-}
-
-.container {
-    height: 25rem;
-}
-
-.height1 {
-    height: 20rem;
-}
-
-.decal1 {
-    align-items: center;
 }

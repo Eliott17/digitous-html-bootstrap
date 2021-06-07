@@ -1,47 +1,115 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="../bootstrap.css"/>
-    <title>Exercice 4</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="../bootstrap.css" />
+  <script type="text/javascript" src="../bootstrap.bundle.js"></script>
+
+  <title>Exercice 4</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-        <a class="navbar-brand text-1" href="#">Homepage</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link text-1" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-2" href="#">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-2" href="#">Contact</a>
-            </li>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <a class="navbar-brand text-1" href="#">Homepage</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Team</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Vincent</a></li>
+            <li><a class="dropdown-item" href="#">Béatrice</a></li>
+            <li><a class="dropdown-item" href="#">Rosita</a></li>
           </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="alert alert-danger container" role="alert">
+   Une erreur est survenue. Veuillez rafraîchir la pasge ou rééssayez plus tard.
+  </div>
+  <div class="container bg-light divprin">
+    <div class="div-content">
+      <div class="div-title">
+        <h2>Hi! My name is!</h2>
+      </div>
+      <div class="div-content-2">
+        <div class="div-image">
+          <img src="../img/eminem.jpg" alt="Photo d'eminem" width="150px" class="image" >
         </div>
-      </nav>
-      <div class="container bg-light">
-        <div class="test3">
-          <div class="height1 decal1">
-            <h2>Hi! My name is!</h2>
+        <div class="div-second-title">
+          <h3>Slim Shady</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="center">
+    
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Signup newsletter
+    </button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Newsletter</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="height1">
-            <div class="test2">
-              <img src="../img/eminem.jpg" alt="Photo d'eminem" width="150px" class="image1">
-            </div>
-            <div class="test2">
-              <h3>Slim Shady</h3>
-            </div>  
+          <div class="modal-body">
+            <form class="row g-3 needs-validation" novalidate>
+              <div class="col-md-12">
+                <div class="input-group has-validation">
+                  <span class="input-group-text" id="inputGroupPrepend">Email</span>
+                  <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="ex : lala@land.com" required>
+                </div>
+              </div>
+            </form> 
+          </div>
+          <div class="modal-footer start">
+            <button type="button" class="btn btn-primary">S'abonner</button>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+
+  <div class="container text">
+    <div class="col-4">
+      <h3>Planification</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla pariatur adipisci id accusantium unde, optio
+        quis molestias hic, voluptate ex assumenda praesentium accusamus beatae officia sint quas dolorum delectus
+        aspernatur ducimus nihil obcaecati. Impedit fugiat dolor incidunt ad voluptatibus eveniet inventore nobis
+        dolorum at aliquid recusandae deleniti doloremque, facere nam!</p>
+    </div>
+    <div class="col-4">
+      <h3>Action</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugiat molestiae in fugit nihil reiciendis,
+        aperiam illo saepe molestias, eum impedit fuga optio veritatis totam tempore eius laborum iure cum iste
+        asperiores ullam. Odit, voluptatibus omnis nemo quam dolor ipsam numquam animi laudantium ducimus atque sit modi
+        culpa quisquam commodi!</p>
+    </div>
+    <div class="col-4">
+      <h3>Analysis</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non consequuntur, repellendus dolore, autem cumque
+        omnis molestias facilis vitae, aliquid odio voluptatem quae illo animi sunt corporis quasi? Pariatur odio est
+        iusto voluptatibus reiciendis, ipsam repellendus ea assumenda odit, corporis optio ab distinctio impedit? Sunt,
+        suscipit sapiente culpa eligendi vel tenetur.</p>
+    </div>
+  </div>
 </body>
+
 </html>
